@@ -206,5 +206,20 @@
     "name" : "Per-session auto-scroll",
     "desc" : "Disable to keep auto-scroll in the state you left it, instead of resetting to off every time Instagram is closed.",
     "code" : "83371::10"
+  },
+  {
+    "name": "New modern navbar (step 1)",
+    "desc": "Enable to modernize navbar like iOS",
+    "code": "126024,126411::16"
+  },
+  {
+    "name": "New modern navbar (step 2)",
+    "desc": "Modernize navbar like iOS by set value 11.0",
+    "code": "126024::1"
+  },
+  {
+    "name": "New modern navbar (step 3)",
+    "desc": "If you have issues (such has UI) after enable/modify step 1 and 2, disable this",
+    "code": "126024::11"
   }
 ]
